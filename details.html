@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/museanimeLogo.png"
+      type="image/x-icon"
+    />
+    <title>MuseAnime</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="assets/images/museanimeLogo.png"
+          alt="museanimeLogo"
+        />MuseAnime
+      </div>
+      <ul>
+        <li>
+          <a href="">Hot <i class="fa-solid fa-fire fire"></i></a>
+        </li>
+        <li><a href="">Song</a></li>
+        <li><a href="">Game</a></li>
+        <li><a href="">Anime List</a></li>
+        <li><a href=""></a></li>
+        <li><a href="">FAQ</a></li>
+      </ul>
+      <div class="search">
+        <a onclick="searchPage()"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </div>
+    </nav>
+
+    <main class="details-hero">
+      <div class="details-content" id="details-content"></div>
+      <div id="episodes" class="episodes"></div>
+    </main>
+
+    <script src="assets/javascript/details.js"></script>
+    <script
+      src="https://kit.fontawesome.com/17cc11dcde.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/javascript/main.js"></script>
+  </body>
+</html>

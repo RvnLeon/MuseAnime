@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/museanimeLogo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>MuseAnime</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="assets/images/museanimeLogo.png"
+          alt="museanimeLogo"
+        />MuseAnime
+      </div>
+      <ul>
+        <li>
+          <a href="">Hot <i class="fa-solid fa-fire fire"></i></a>
+        </li>
+        <li><a href="">Song</a></li>
+        <li><a href="">Game</a></li>
+        <li><a href="">Anime List</a></li>
+        <li><a href=""></a></li>
+        <li><a href="">FAQ</a></li>
+      </ul>
+      <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </nav>
+
+    <div class="search-input">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Masukkan kata kunci..."
+      />
+      <button id="searchButton" onclick="fetchSearchData()">
+        <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+      </button>
+    </div>
+
+    <section class="search-results" id="search-results"></section>
+
+    <script
+      src="https://kit.fontawesome.com/17cc11dcde.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/javascript/search.js"></script>
+    <script src="assets/javascript/main.js"></script>
+  </body>
+</html>
